@@ -1,7 +1,7 @@
 import moviepy.editor
 from pathlib import Path
 
-video_file = Path('Miyagi & Andy Panda - Minor (Mood Video).mp4')
+video_file = Path('INSERT_PATH_TO_YOUR_VIDEO_FILE.mp4')
 
 video = moviepy.editor.VideoFileClip(f'{video_file}')
 
